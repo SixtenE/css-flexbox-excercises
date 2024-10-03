@@ -1,0 +1,71 @@
+:root {
+  --background-color: #d4d4d8;
+  --primary-color: #ffffff;
+  --secondary-color: #27272a;
+  --text-primary-color: #18181b;
+  --text-secondary-color: #a1a1aa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: fit-content;
+
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+  background-color: var(--primary-color);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.card h1 {
+  margin-bottom: 0.25rem;
+
+  font-size: 1.7rem;
+}
+
+.card p {
+  margin-bottom: 4rem;
+
+  color: var(--text-secondary-color);
+}
+
+.card a {
+  width: 16rem;
+
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  background-color: var(--secondary-color);
+  border-radius: 9999px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.close {
+  width: 1rem;
+
+  align-self: flex-end;
+  margin-bottom: 4rem;
+}
+
+.profile {
+  width: 8rem;
+
+  margin-bottom: 1rem;
+
+  border-radius: 9999px;
+}
